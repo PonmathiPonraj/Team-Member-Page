@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.main h1 {
+    font-size: 45px;
+    text-align: center;
+    color: darkblue;
+}
+
+.main p {
+    text-align: center;
+    margin: 20px;
+    padding: 0px 30px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.team-section {
+    margin-top: 70px;
+}
+
+.team-name h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0px;
+    color: #a407af;
+    text-transform: uppercase;
+}
+
+.team-title h1 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin: 20px 0px;
+    color: maroon;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.team-card {
+    border-radius: 50px;
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+}
+
+.team-card2{
+    border-radius: 50px;
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+    width: calc(50% - -185px);
+}
+
+.team-card:hover {
+    transform: translateY(-12px);
+}
+
+.team-image img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+   
+.team-details h3 {
+    font-size: 24px;
+    margin: 15px 0px;
+}
+
+.team-details p {
+    font-size: 16px;
+    color: #ff66cc;
+    font-style: italic;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .team-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .team-card {
+        width: 85%;
+        margin: 25px auto;
+    }
+}
